@@ -9,6 +9,14 @@ $font-family-base: 'Epilogue', sans-serif;
 
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+body {
+    background-color: $almost-white;
+}
+
+header {
+    padding: 1rem;
+}
+
 .icon {
     margin-right: 0.5rem;
 }
@@ -17,6 +25,18 @@ $font-family-base: 'Epilogue', sans-serif;
     color: $medium-gray;
 }
 
+h1 {
+    font-size: calc(1.85rem + 1.5vw);
+}
+
 .hero-paragraph {
     color: $medium-gray;
+    
+}
+
+.hero-btn,
+.hero-paragraph {
+    @media (min-width: 48em) {
+        font-size: calc(1rem + 1.5vw); 
+     }
 }

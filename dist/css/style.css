@@ -10758,6 +10758,14 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-color: hsl(0deg, 0%, 98%);
+}
+
+header {
+  padding: 1rem;
+}
+
 .icon {
   margin-right: 0.5rem;
 }
@@ -10766,8 +10774,19 @@ textarea.form-control-lg {
   color: hsl(0deg, 0%, 41%);
 }
 
+h1, .h1 {
+  font-size: calc(1.85rem + 1.5vw);
+}
+
 .hero-paragraph {
   color: hsl(0deg, 0%, 41%);
+}
+
+@media (min-width: 48em) {
+  .hero-btn,
+.hero-paragraph {
+    font-size: calc(1rem + 1.5vw);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
