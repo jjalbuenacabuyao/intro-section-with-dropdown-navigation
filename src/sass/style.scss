@@ -1,0 +1,22 @@
+$almost-white: hsl(0, 0%, 98%);
+$medium-gray: hsl(0, 0%, 41%);
+$almost-black: hsl(0, 0%, 8%);
+
+$primary: $almost-white;
+$body-color: $almost-black;
+$dark: $almost-black;
+$font-family-base: 'Epilogue', sans-serif;
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.bi {
+    margin-right: 0.5rem;
+}
+
+.btn-light {
+    color: $medium-gray;
+}
+
+.hero-paragraph {
+    color: $medium-gray;
+}
